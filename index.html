@@ -1,36 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strona z tekstem</title>
+    <title>Multimedia w HTML</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 2em auto;
+            max-width: 800px;
+            padding: 0 1em;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #0056b3;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 1.5em;
+        }
+        p {
+            margin: 1em 0;
+        }
+        ul {
+            margin: 1em 0;
+            padding-left: 1.5em;
+        }
+        li {
+            margin: 0.5em 0;
+        }
+    </style>
 </head>
 <body>
-    
-Multimedia w HTML 
-– kluczowy element nowoczesnych stron internetowych
+    <h1>Multimedia w HTML – kluczowy element nowoczesnych stron internetowych</h1>
+    <p>HTML to jeden z najważniejszych języków wykorzystywanych w tworzeniu stron internetowych, a jego możliwości wykraczają daleko poza wyświetlanie tekstu. HTML pozwala na włączanie do witryn internetowych różnorodnych multimediów, takich jak obrazy, dźwięki, wideo, animacje czy interaktywne treści. Integracja multimediów w stronach jest dzisiaj standardem, który nie tylko poprawia wygląd strony, ale także wzbogaca doświadczenia użytkowników i zwiększa interaktywność witryny. W mojej pracy przyjrzę się, jak HTML pozwala na efektywne dodawanie multimediów do stron internetowych, omawiając najpopularniejsze formy multimedialne i związane z nimi elementy HTML.</p>
 
-   HTML to jeden z najważniejszych języków wykorzystywanych w tworzeniu stron internetowych, a jego możliwości wykraczają daleko poza wyświetlanie tekstu. HTML pozwala na włączanie do witryn internetowych różnorodnych multimediów, takich jak obrazy, dźwięki, wideo, animacje czy interaktywne treści. Integracja multimediów w stronach jest dzisiaj standardem, który nie tylko poprawia wygląd strony, ale także wzbogaca doświadczenia użytkowników i zwiększa interaktywność witryny. W mojej pracy przyjrzę się, jak HTML pozwala na efektywne dodawanie multimediów do stron internetowych, omawiając najpopularniejsze formy multimedialne i związane z nimi elementy HTML.
-Obrazy w HTML
-   Obrazy są jednym z najczęściej wykorzystywanych mediów w Internecie. W HTML obrazy osadzane są za pomocą tagu <img>, który umożliwia wskazanie ścieżki do pliku graficznego, zarówno na lokalnym dysku, jak i na serwerze. Atrybut src pozwala określić lokalizację pliku, a atrybut alt dostarcza tekst alternatywny, który jest wyświetlany, gdy obraz nie może zostać załadowany. Ponadto atrybut alt jest również ważny z punktu widzenia dostępności, ponieważ umożliwia osobom korzystającym z technologii wspomagających, takich jak czytniki ekranu, lepsze zrozumienie zawartości strony.
-   Tag <img> posiada także inne opcje, które pozwalają na modyfikację wyglądu obrazów, takie jak ustawianie szerokości i wysokości (atrybuty width i height) czy dostosowywanie stylów za pomocą CSS. Istnieją również techniki, które pozwalają na responsywne wyświetlanie obrazów, tak by dostosowywały się one do różnych rozdzielczości ekranów i urządzeń. Dodatkowo HTML umożliwia tworzenie galerii zdjęć oraz osadzanie obrazów jako tła w innych elementach strony.
-Wideo w HTML
-   Wprowadzenie HTML5 miało istotny wpływ na sposób, w jaki osadzamy wideo w stronach internetowych. Tag <video> stał się głównym narzędziem do osadzania plików wideo na stronach HTML, a jego popularność wciąż rośnie. Dzięki temu tagowi twórcy stron mogą bezpośrednio osadzać filmy bez potrzeby korzystania z zewnętrznych wtyczek, takich jak Flash. Element <video> pozwala na dodanie kontroli odtwarzania (np. play, pauza, głośność, pełny ekran) oraz umożliwia wybór różnych plików wideo w zależności od obsługiwanego formatu przez przeglądarkę (MP4, WebM, Ogg).
-   Tag <video> może zawierać różne atrybuty, takie jak autoplay (automatyczne rozpoczęcie odtwarzania po załadowaniu strony), loop (powtarzanie wideo), muted (włączenie wyciszenia), controls (widoczność kontrolek odtwarzacza) oraz poster (okładka wyświetlana przed odtworzeniem wideo). Można również dodać napisy w formacie VTT, które są osadzane za pomocą tagu <track>, umożliwiając widzom dostępność treści wideo, np. w formie transkrypcji.
-Dźwięk w HTML
-   Podobnie jak w przypadku wideo, HTML5 wprowadził nowy tag <audio>, który pozwala na osadzanie plików dźwiękowych w stronach internetowych. Tag <audio> daje użytkownikom dostęp do odtwarzania plików audio w różnych formatach, takich jak MP3, Ogg i WAV. Tag ten również oferuje atrybuty, które umożliwiają kontrolowanie odtwarzania dźwięku, np. controls, który dodaje przyciski odtwarzacza audio, czy autoplay, który sprawia, że dźwięk zaczyna być odtwarzany od razu po załadowaniu strony.
-   Dźwięk może być także osadzony w pętli (przy użyciu atrybutu loop), co jest często wykorzystywane w aplikacjach, które wymagają ciągłego odtwarzania muzyki lub efektów dźwiękowych. Formularze w HTML mogą także zawierać opcję przesyłania plików audio, umożliwiając użytkownikom dodawanie swoich własnych nagrań, co jest popularne np. na stronach do dzielenia się muzyką lub podcastami.
-Formularze multimedialne
-   HTML pozwala także na tworzenie formularzy, które umożliwiają przesyłanie multimediów, takich jak obrazy, pliki wideo czy audio. Za pomocą elementu <input> o typie file, użytkownicy mogą wybierać pliki z urządzenia i przesyłać je na serwer. Dzięki temu funkcjonalności takie jak dodawanie zdjęć do postów w mediach społecznościowych, przesyłanie plików wideo w serwisach streamingowych czy wstawianie załączników w aplikacjach pocztowych stały się łatwe i powszechne.
-Integracja z zewnętrznymi serwisami multimedialnymi
-   HTML oferuje również możliwość integracji z zewnętrznymi serwisami multimedialnymi, takimi jak YouTube, Vimeo, SoundCloud czy Spotify, co jest szczególnie przydatne w przypadku, gdy chcemy umieścić na stronie wideo lub muzykę z popularnych platform. Do osadzania treści z tych serwisów używamy tagu <iframe>, który pozwala na umieszczenie wstawki z innej strony bez konieczności pobierania pliku na własny serwer. Dzięki tej metodzie użytkownicy mogą korzystać z multimediów bez konieczności opuszczania naszej witryny.
-Optymalizacja i dostępność multimediów
-   Chociaż multimedia są niezwykle ważnym elementem stron internetowych, kluczowym zagadnieniem staje się ich optymalizacja. Duże pliki wideo, obrazy czy dźwięki mogą znacznie wpłynąć na czas ładowania strony, co negatywnie wpływa na doświadczenia użytkowników i pozycję strony w wynikach wyszukiwania. Dlatego ważne jest, aby dbać o odpowiednią kompresję plików oraz korzystać z formatów, które zapewniają optymalną jakość przy jak najmniejszym rozmiarze pliku.
-   Dodatkowo, warto pamiętać o dostępności multimediów. Zapewnienie alternatywnych opisów dla obrazów, napisy wideo czy odpowiednia struktura odtwarzaczy multimedialnych pozwala na lepsze dostosowanie treści do potrzeb osób z różnymi niepełnosprawnościami, takich jak problemy ze wzrokiem czy słuchem.
-Podsumowanie
-   Multimedia odgrywają niezwykle ważną rolę w tworzeniu atrakcyjnych i interaktywnych stron internetowych. HTML oferuje wiele narzędzi do osadzania różnych rodzajów mediów, takich jak obrazy, wideo, dźwięki i inne. Dzięki odpowiednim tagom, jak <img>, <video>, <audio> oraz możliwości integracji z zewnętrznymi serwisami, twórcy stron mają ogromną elastyczność w wzbogacaniu treści. Optymalizacja multimediów pod względem rozmiaru, jakości oraz dostępności pozwala na poprawienie doświadczeń użytkowników i zwiększenie efektywności witryn internetowych.
+    <h2>Obrazy w HTML</h2>
+    <p>Obrazy są jednym z najczęściej wykorzystywanych mediów w Internecie. W HTML obrazy osadzane są za pomocą tagu <code>&lt;img&gt;</code>, który umożliwia wskazanie ścieżki do pliku graficznego, zarówno na lokalnym dysku, jak i na serwerze. Atrybut <code>src</code> pozwala określić lokalizację pliku, a atrybut <code>alt</code> dostarcza tekst alternatywny, który jest wyświetlany, gdy obraz nie może zostać załadowany. Ponadto atrybut <code>alt</code> jest również ważny z punktu widzenia dostępności, ponieważ umożliwia osobom korzystającym z technologii wspomagających, takich jak czytniki ekranu, lepsze zrozumienie zawartości strony.</p>
 
+    <p>Tag <code>&lt;img&gt;</code> posiada także inne opcje, które pozwalają na modyfikację wyglądu obrazów, takie jak ustawianie szerokości i wysokości (atrybuty <code>width</code> i <code>height</code>) czy dostosowywanie stylów za pomocą CSS. Istnieją również techniki, które pozwalają na responsywne wyświetlanie obrazów, tak by dostosowywały się one do różnych rozdzielczości ekranów i urządzeń. Dodatkowo HTML umożliwia tworzenie galerii zdjęć oraz osadzanie obrazów jako tła w innych elementach strony.</p>
 
+    <h2>Wideo w HTML</h2>
+    <p>Wprowadzenie HTML5 miało istotny wpływ na sposób, w jaki osadzamy wideo w stronach internetowych. Tag <code>&lt;video&gt;</code> stał się głównym narzędziem do osadzania plików wideo na stronach HTML, a jego popularność wciąż rośnie. Dzięki temu tagowi twórcy stron mogą bezpośrednio osadzać filmy bez potrzeby korzystania z zewnętrznych wtyczek, takich jak Flash. Element <code>&lt;video&gt;</code> pozwala na dodanie kontroli odtwarzania (np. play, pauza, głośność, pełny ekran) oraz umożliwia wybór różnych plików wideo w zależności od obsługiwanego formatu przez przeglądarkę (MP4, WebM, Ogg).</p>
+
+    <p>Tag <code>&lt;video&gt;</code> może zawierać różne atrybuty, takie jak <code>autoplay</code> (automatyczne rozpoczęcie odtwarzania po załadowaniu strony), <code>loop</code> (powtarzanie wideo), <code>muted</code> (włączenie wyciszenia), <code>controls</code> (widoczność kontrolek odtwarzacza) oraz <code>poster</code> (okładka wyświetlana przed odtworzeniem wideo). Można również dodać napisy w formacie VTT, które są osadzane za pomocą tagu <code>&lt;track&gt;</code>, umożliwiając widzom dostępność treści wideo, np. w formie transkrypcji.</p>
+
+    <h2>Dźwięk w HTML</h2>
+    <p>Podobnie jak w przypadku wideo, HTML5 wprowadził nowy tag <code>&lt;audio&gt;</code>, który pozwala na osadzanie plików dźwiękowych w stronach internetowych. Tag <code>&lt;audio&gt;</code> daje użytkownikom dostęp do odtwarzania plików audio w różnych formatach, takich jak MP3, Ogg i WAV. Tag ten również oferuje atrybuty, które umożliwiają kontrolowanie odtwarzania dźwięku, np. <code>controls</code>, który dodaje przyciski odtwarzacza audio, czy <code>autoplay</code>, który sprawia, że dźwięk zaczyna być odtwarzany od razu po załadowaniu strony.</p>
+
+    <p>Dźwięk może być także osadzony w pętli (przy użyciu atrybutu <code>loop</code>), co jest często wykorzystywane w aplikacjach, które wymagają ciągłego odtwarzania muzyki lub efektów dźwiękowych. Formularze w HTML mogą także zawierać opcję przesyłania plików audio, umożliwiając użytkownikom dodawanie swoich własnych nagrań, co jest popularne np. na stronach do dzielenia się muzyką lub podcastami.</p>
+
+    <h2>Formularze multimedialne</h2>
+    <p>HTML pozwala także na tworzenie formularzy, które umożliwiają przesyłanie multimediów, takich jak obrazy, pliki wideo czy audio. Za pomocą elementu <code>&lt;input&gt;</code> o typie <code>file</code>, użytkownicy mogą wybierać pliki z urządzenia i przesyłać je na serwer. Dzięki temu funkcjonalności takie jak dodawanie zdjęć do postów w mediach społecznościowych, przesyłanie plików wideo w serwisach streamingowych czy wstawianie załączników w aplikacjach pocztowych stały się łatwe i powszechne.</p>
+
+    <h2>Integracja z zewnętrznymi serwisami multimedialnymi</h2>
+    <p>HTML oferuje również możliwość integracji z zewnętrznymi serwisami multimedialnymi, takimi jak YouTube, Vimeo, SoundCloud czy Spotify, co jest szczególnie przydatne w przypadku, gdy chcemy umieścić na stronie wideo lub muzykę z popularnych platform. Do osadzania treści z tych serwisów używamy tagu <code>&lt;iframe&gt;</code>, który pozwala na umieszczenie wstawki z innej strony bez konieczności pobierania pliku na własny serwer. Dzięki tej metodzie użytkownicy mogą korzystać z multimediów bez konieczności opuszczania naszej witryny.</p>
+
+    <h2>Optymalizacja i dostępność multimediów</h2>
+    <p>Chociaż multimedia są niezwykle ważnym elementem stron internetowych, kluczowym zagadnieniem staje się ich optymalizacja. Duże pliki wideo, obrazy czy dźwięki mogą znacznie wpłynąć na czas ładowania strony, co negatywnie wpływa na doświadczenia użytkowników i pozycję strony w wynikach wyszukiwania. Dlatego ważne jest, aby dbać o odpowiednią kompresję plików oraz korzystać z formatów, które zapewniają optymalną jakość przy jak najmniejszym rozmiarze pliku.</p>
+
+    <p>Dodatkowo, warto pamiętać o dostępności multimediów. Zapewnienie alternatywnych opisów dla obrazów, napisy wideo czy odpowiednia struktura odtwarzaczy multimedialnych pozwala na lepsze dostosowanie treści do potrzeb osób z różnymi niepełnosprawnościami, takich jak problemy ze wzrokiem czy słuchem.</p>
+
+    <h2>Podsumowanie</h2>
+    <p>Multimedia odgrywają niezwykle ważną rolę w tworzeniu atrakcyjnych i interaktywnych stron internetowych. HTML oferuje wiele narzędzi do osadzania różnych rodzajów mediów, takich jak obrazy, wideo, dźwięki i inne. Dzięki odpowiednim tagom, jak <code>&lt;img&gt;</code>, <code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code> oraz możliwości integracji z zewnętrznymi serwisami, twórcy stron mają ogromną elastyczność w wzbogacaniu treści. Optymalizacja multimediów pod względem rozmiaru, jakości oraz dostępności pozwala na poprawienie doświadczeń użytkowników i zwiększenie efektywności witryn internetowych.</p>
 </body>
 </html>
